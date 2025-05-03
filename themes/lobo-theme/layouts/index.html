@@ -1,0 +1,58 @@
+{{ define "main" }}
+<div class="home-layout">
+    <div class="left-column">
+        
+        <div class="bio-section">
+            <div class="address-box">
+                <h3>ADDRESS</h3>
+                <p>Your department<br>
+                Your university<br>
+                City, Country</p>
+            </div>
+            
+            <div class="short-bio">
+                <h3>SHORT BIO</h3>
+                <p>{{ .Content }}</p>
+            </div>
+        </div>
+        
+        <div class="preprints-section">
+            <h2>PREPRINTS:</h2>
+            <ul>
+                {{ range (where .Site.RegularPages "Section" "preprints") }}
+                <li><a href="{{ .Params.link }}">{{ .Title }}</a></li>
+                {{ end }}
+            </ul>
+        </div>
+        
+        <div class="talks-section">
+            <h2>TALKS:</h2>
+            <ul>
+                {{ range (where .Site.RegularPages "Section" "talks") }}
+                <li><a href="{{ .Params.link }}">{{ .Title }}</a> - {{ .Params.venue }}</li>
+                {{ end }}
+            </ul>
+        </div>
+
+
+        <details>
+            <summary>Abstract</summary>
+            <div class="talks-section">
+                <h2>TALKS:</h2>
+                <ul>
+                    {{ range (where .Site.RegularPages "Section" "talks") }}
+                    <li><a href="{{ .Params.link }}">{{ .Title }}</a> - {{ .Params.venue }}</li>
+                    {{ end }}
+                </ul>
+            </div>
+        </details>
+
+    </div>
+    
+    <div class="right-column">
+        <div class="photo-box">
+            <img src="{{ "images/profile.jpg" | relURL }}" alt="Profile photo">
+        </div>
+    </div>
+</div>
+{{ end }}

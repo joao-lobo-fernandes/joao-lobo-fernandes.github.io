@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latex Blog Post | joão lobo fernandes</title>
+    <link rel="stylesheet" href="/css/style.css?v=1746276387">
+    
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)']]                  
+    },
+    loader:{
+      load: ['ui/safe']
+    }
+  };
+</script>
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="main-nav">
+    <ul>
+        
+        <li><a href="/">Home</a></li>
+        
+        <li><a href="/blog/">Writing</a></li>
+        
+    </ul>
+</nav>
+<div class="site-title">
+    <h1>joão lobo fernandes</h1>
+</div>
+        </header>
+        <main>
+            
+<div class="single-page">
+    <h1>Latex Blog Post</h1>
+    <div class="metadata">
+        <span class="date">May 2, 2025</span>
+    </div>
+    <div class="content">
+        <h2 id="using-latex-in-your-hugo-academic-website">Using LaTeX in Your Hugo Academic Website</h2>
+<p>This guide explains how to write LaTeX in your markdown files and how it will render on your website.</p>
+<h2 id="latex-syntax-in-markdown">LaTeX Syntax in Markdown</h2>
+<p>You can include LaTeX equations in your Hugo markdown files using the following delimiters:</p>
+<ol>
+<li><strong>Inline equations</strong>: Use <code>$...$</code> or <code>\\(...\\)</code></li>
+<li><strong>Display equations</strong>: Use <code>$$...$$</code> or <code>\\[...\\]</code></li>
+</ol>
+<h2 id="examples">Examples</h2>
+<h3 id="basic-equations">Basic Equations</h3>
+<p>For inline equations like $E=mc^2$, just write: <code>$E=mc^2$</code></p>
+<p>For displayed equations:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-LaTeX" data-lang="LaTeX"><span style="display:flex;"><span><span style="color:#e6db74">$$</span>
+</span></span><span style="display:flex;"><span>E <span style="color:#f92672">=</span> mc^<span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">$$</span>
+</span></span></code></pre></div><p>Which renders as:</p>
+$$
+E = mc^2
+$$<h3 id="fractions">Fractions</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-LaTeX" data-lang="LaTeX"><span style="display:flex;"><span><span style="color:#e6db74">$$</span>\frac{n<span style="color:#f92672">!</span>}{k<span style="color:#f92672">!(</span>n<span style="color:#f92672">-</span>k<span style="color:#f92672">)!</span>} <span style="color:#f92672">=</span> \binom{n}{k}<span style="color:#e6db74">$$</span>
+</span></span></code></pre></div><p>Renders as:</p>
+$$\frac{n!}{k!(n-k)!} = \binom{n}{k}$$<h3 id="summations-and-integrals">Summations and Integrals</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-LaTeX" data-lang="LaTeX"><span style="display:flex;"><span><span style="color:#e6db74">$$</span>\sum_{i<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>}^{n} x_i<span style="color:#e6db74">$$</span>
+</span></span></code></pre></div><p>Renders as:</p>
+$$\sum_{i=1}^{n} x_i$$<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-LaTeX" data-lang="LaTeX"><span style="display:flex;"><span><span style="color:#e6db74">$$</span>\int_{a}^{b} f<span style="color:#f92672">(</span>x<span style="color:#f92672">)</span> \, dx<span style="color:#e6db74">$$</span>
+</span></span></code></pre></div><p>Renders as:</p>
+$$\int_{a}^{b} f(x) \, dx$$<h3 id="matrices">Matrices</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-LaTeX" data-lang="LaTeX"><span style="display:flex;"><span><span style="color:#e6db74">$$</span>
+</span></span><span style="display:flex;"><span>\begin{pmatrix}
+</span></span><span style="display:flex;"><span>a &amp; b \\
+</span></span><span style="display:flex;"><span>c &amp; d
+</span></span><span style="display:flex;"><span>\end{pmatrix}
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">$$</span>
+</span></span></code></pre></div><p>Renders as:</p>
+$$
+\begin{pmatrix}
+a & b \\
+c & d
+\end{pmatrix}
+$$<h3 id="aligned-equations">Aligned Equations</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-LaTeX" data-lang="LaTeX"><span style="display:flex;"><span><span style="color:#e6db74">$$</span>
+</span></span><span style="display:flex;"><span>\begin{align}
+</span></span><span style="display:flex;"><span>\dot{x} &amp; <span style="color:#f92672">=</span> \sigma<span style="color:#f92672">(</span>y<span style="color:#f92672">-</span>x<span style="color:#f92672">)</span> \\
+</span></span><span style="display:flex;"><span>\dot{y} &amp; <span style="color:#f92672">=</span> \rho x <span style="color:#f92672">-</span> y <span style="color:#f92672">-</span> xz \\
+</span></span><span style="display:flex;"><span>\dot{z} &amp; <span style="color:#f92672">=</span> <span style="color:#f92672">-</span>\beta z <span style="color:#f92672">+</span> xy
+</span></span><span style="display:flex;"><span>\end{align}
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">$$</span>
+</span></span></code></pre></div><p>Renders as:</p>
+$$
+\begin{align}
+\dot{x} & = \sigma(y-x) \\
+\dot{y} & = \rho x - y - xz \\
+\dot{z} & = -\beta z + xy
+\end{align}
+$$<h2 id="latex-in-different-content-types">LaTeX in Different Content Types</h2>
+<p>You can use LaTeX in any markdown file in your Hugo site:</p>
+<ol>
+<li><strong>Blog posts</strong>: Great for explaining mathematical concepts</li>
+<li><strong>Preprints summaries</strong>: Add equations that appear in your papers</li>
+<li><strong>Research pages</strong>: Include mathematical formulations of your research problems</li>
+<li><strong>Teaching materials</strong>: Add equations for courses or tutorials</li>
+</ol>
+<h2 id="advanced-usage">Advanced Usage</h2>
+<h3 id="custom-macros">Custom Macros</h3>
+<p>You can define custom LaTeX macros by adding them to the KaTeX configuration in your <code>head.html</code> partial:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">script</span>&gt;
+</span></span><span style="display:flex;"><span>    document.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#34;DOMContentLoaded&#34;</span>, <span style="color:#66d9ef">function</span>() {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">renderMathInElement</span>(document.<span style="color:#a6e22e">body</span>, {
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">delimiters</span><span style="color:#f92672">:</span> [
+</span></span><span style="display:flex;"><span>                {<span style="color:#a6e22e">left</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;$$&#39;</span>, <span style="color:#a6e22e">right</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;$$&#39;</span>, <span style="color:#a6e22e">display</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>},
+</span></span><span style="display:flex;"><span>                {<span style="color:#a6e22e">left</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;$&#39;</span>, <span style="color:#a6e22e">right</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;$&#39;</span>, <span style="color:#a6e22e">display</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">false</span>},
+</span></span><span style="display:flex;"><span>                {<span style="color:#a6e22e">left</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;\\(&#39;</span>, <span style="color:#a6e22e">right</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;\\)&#39;</span>, <span style="color:#a6e22e">display</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">false</span>},
+</span></span><span style="display:flex;"><span>                {<span style="color:#a6e22e">left</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;\\[&#39;</span>, <span style="color:#a6e22e">right</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;\\]&#39;</span>, <span style="color:#a6e22e">display</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>}
+</span></span><span style="display:flex;"><span>            ],
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">macros</span><span style="color:#f92672">:</span> {
+</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;\\R&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\\mathbb{R}&#34;</span>,
+</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#34;\\vec&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;\\boldsymbol&#34;</span>
+</span></span><span style="display:flex;"><span>            },
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">throwOnError</span> <span style="color:#f92672">:</span> <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>        });
+</span></span><span style="display:flex;"><span>    });
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">script</span>&gt;
+</span></span></code></pre></div><p>This defines <code>\R</code> as a shorthand for <code>\mathbb{R}</code> (the real numbers symbol) and enhances the <code>\vec</code> command.</p>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<ol>
+<li><strong>Equations not rendering</strong>: Make sure your markdown file is being processed by Hugo correctly</li>
+<li><strong>Escaping backslashes</strong>: In some contexts, you might need to double backslashes in LaTeX commands</li>
+<li><strong>Syntax errors</strong>: Check the browser console for KaTeX error messages</li>
+</ol>
+<h2 id="tips-for-academic-writing">Tips for Academic Writing</h2>
+<ol>
+<li><strong>Consistent notation</strong>: Keep your mathematical notation consistent across your website</li>
+<li><strong>Equation numbering</strong>: For long documents, consider using equation numbering</li>
+<li><strong>Accessibility</strong>: Provide text descriptions of important equations for screen readers</li>
+</ol>
+
+    </div>
+</div>
+
+        </main>
+        <footer>
+            <div class="footer-content">
+    <p>&copy; 2025 João Lobo Fernandes</p>
+</div>
+        </footer>
+    </div>
+</body>
+</html>

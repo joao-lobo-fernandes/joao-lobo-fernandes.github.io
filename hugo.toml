@@ -1,0 +1,26 @@
+baseURL = 'https://arturchichorro.github.io'
+languageCode = 'en-us'
+title = 'joão lobo fernandes'
+theme = "lobo-theme"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\\[', '\\]'], ['$$', '$$']]
+          inline = [['\\(', '\\)']]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Writing"
+    url = "/blog/"
+    weight = 2
+
+[params]
+    author = "João Lobo Fernandes"

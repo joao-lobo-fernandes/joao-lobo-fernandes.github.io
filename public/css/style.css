@@ -1,0 +1,277 @@
+@font-face {
+    font-family: 'Linux Libertine';
+    src: url('/fonts/LinuxLibertine/LinLibertine_R.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linux Libertine SC';
+    src: url('/fonts/LinuxLibertine/LinLibertine_aS.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linux Libertine SCB';
+    src: url('/fonts/LinuxLibertine/LinLibertine_aBS.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Linux Libertine', serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+h1, h2, h3, h4, h5, h6,
+a {
+    font-family: 'Linux Libertine SC', serif;
+    color: maroon;
+}
+
+.site-title h1 {
+    font-family: 'Linux Libertine SCB', serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.main-nav a:hover,
+.nav-links a:hover,
+.preprints-section a:hover,
+.talks-section a:hover {
+    text-decoration: underline;
+}
+
+.site-title h1 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+footer {
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.home-layout {
+    display: flex;
+    gap: 30px;
+}
+
+.left-column {
+    flex: 7;
+    border-right: 2px solid maroon;
+    padding-right: 30px;
+}
+
+.right-column {
+    flex: 3;
+    padding-left: 10px;
+}
+
+.name-section {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.name-section h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.nav-links {
+    margin-top: 5px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.bio-section {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.address-box, .short-bio {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid maroon;
+}
+
+.address-box h3, .short-bio h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.preprints-section, .talks-section {
+    margin-bottom: 30px;
+}
+
+.preprints-section h2, .talks-section h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.preprints-section ul, .talks-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.preprints-section li, .talks-section li {
+    margin-bottom: 8px;
+}
+
+.preprints-section a, .talks-section a {
+    text-decoration: none;
+}
+
+.photo-box {
+    border: 1px solid maroon;
+    padding: 5px;
+    max-width: 100%;
+    margin-top: 50px;
+}
+
+.photo-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.list-page {
+    padding: 20px;
+}
+
+.list-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.item-list {
+    list-style: none;
+}
+
+.item-list li {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.item-list a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.item-list .date {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.single-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.single-page h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.single-page .metadata {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.single-page .content {
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+    .home-layout {
+        flex-direction: column;
+    }
+
+    .left-column {
+        border-right: none;
+        border-bottom: 2px solid maroon;
+        padding-right: 0;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+
+    .right-column {
+        padding-left: 0;
+    }
+
+    .bio-section {
+        flex-direction: column;
+    }
+
+    .photo-box {
+        margin-top: 0;
+    }
+}
+
+details {
+    border: 1px solid #ccc;
+    padding: 10px;
+
+    margin: 10px auto;
+  }
+
+  summary {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+  }
+
+  details[open] p {
+    color: #555;
+  }

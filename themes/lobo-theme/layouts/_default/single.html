@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="single-page">
+    <h1>{{ .Title }}</h1>
+    <div class="metadata">
+        <span class="date">{{ .Date.Format "January 2, 2006" }}</span>
+    </div>
+    <div class="content">
+        {{ .Content }}
+    </div>
+</div>
+{{ end }}
