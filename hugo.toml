@@ -1,4 +1,4 @@
-baseURL = 'https://arturchichorro.github.io'
+baseURL = 'https://arturchichorro.github.io/hugo-test-jt/'
 languageCode = 'en-us'
 title = 'joão lobo fernandes'
 theme = "lobo-theme"
