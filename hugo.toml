@@ -24,3 +24,7 @@ theme = "lobo-theme"
 
 [params]
     author = "João Lobo Fernandes"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
