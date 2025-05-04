@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on joão lobo fernandes</title>
-    <link>https://arturchichorro.github.io/tags/</link>
-    <description>Recent content in Tags on joão lobo fernandes</description>
+    <title>Tags on João Lobo Fernandes</title>
+    <link>http://localhost:1313/hugo-test-jt/tags/</link>
+    <description>Recent content in Tags on João Lobo Fernandes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://arturchichorro.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/hugo-test-jt/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

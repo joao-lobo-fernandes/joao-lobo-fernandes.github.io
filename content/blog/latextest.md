@@ -1,6 +1,6 @@
 ---
 title: "Latex Blog Post"
-date: 2025-05-02
+date: 2025-05-01
 draft: false
 params:
     math: true

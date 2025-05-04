@@ -1,6 +1,6 @@
 baseURL = 'https://arturchichorro.github.io/hugo-test-jt/'
 languageCode = 'en-us'
-title = 'joão lobo fernandes'
+title = 'João Lobo Fernandes'
 theme = "lobo-theme"
 
 [markup]
