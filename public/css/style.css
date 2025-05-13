@@ -115,7 +115,6 @@ header {
 
 .name-section h1 {
     font-size: 28px;
-    text-transform: uppercase;
 }
 
 .nav-links {
@@ -139,19 +138,12 @@ header {
     text-align: justify;
 }
 
-.address-box h3, .short-bio h3 {
-    font-size: 16px;
-    text-transform: uppercase;
-}
-
 .research-interests {
     text-align: justify;
 }
 
 
 .preprints-section h2, .talks-section h2 {
-    font-size: 18px;
-    text-transform: uppercase;
     font-weight: bold;
 }
 
@@ -176,53 +168,6 @@ header {
     display: block;
 }
 
-.list-page {
-    padding: 20px;
-}
-
-.list-page h1 {
-    font-size: 24px;
-}
-
-.item-list {
-    list-style: none;
-}
-
-.item-list li {
-    padding-bottom: 15px;
-    border-bottom: 1px solid #ddd;
-}
-
-.item-list a {
-    font-size: 20px;
-    text-decoration: none;
-}
-
-.item-list .date {
-    display: block;
-    font-size: 14px;
-    color: #666;
-    margin: 5px 0;
-}
-
-.single-page {
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.single-page h1 {
-    font-size: 28px;
-}
-
-.single-page .metadata {
-    font-size: 14px;
-    color: #666;
-}
-
-.single-page .content {
-    line-height: 1.8;
-}
 
 @media (max-width: 768px) {
     .home-layout {
