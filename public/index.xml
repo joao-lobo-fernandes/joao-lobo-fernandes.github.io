@@ -36,5 +36,12 @@
       <guid>http://localhost:1313/hugo-test-jt/talks/second-talk/</guid>
       <description>&lt;p&gt;Details about my first academic talk.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Latex Blog Post</title>
+      <link>http://localhost:1313/hugo-test-jt/blog/latextest/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-test-jt/blog/latextest/</guid>
+      <description>&lt;h2 id=&#34;using-latex-in-your-hugo-academic-website&#34;&gt;Using LaTeX in Your Hugo Academic Website&lt;/h2&gt;&#xA;&lt;p&gt;This guide explains how to write LaTeX in your markdown files and how it will render on your website.&lt;/p&gt;&#xA;&lt;h2 id=&#34;latex-syntax-in-markdown&#34;&gt;LaTeX Syntax in Markdown&lt;/h2&gt;&#xA;&lt;p&gt;You can include LaTeX equations in your Hugo markdown files using the following delimiters:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Inline equations&lt;/strong&gt;: Use &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\\(...\\)&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Display equations&lt;/strong&gt;: Use &lt;code&gt;$$...$$&lt;/code&gt; or &lt;code&gt;\\[...\\]&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;&#xA;&lt;h3 id=&#34;basic-equations&#34;&gt;Basic Equations&lt;/h3&gt;&#xA;&lt;p&gt;For inline equations like $E=mc^2$, just write: &lt;code&gt;$E=mc^2$&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;For displayed equations:&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

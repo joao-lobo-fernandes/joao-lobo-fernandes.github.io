@@ -11,9 +11,6 @@
     <loc>http://localhost:1313/hugo-test-jt/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-test-jt/blog/latextest/</loc>
-    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/hugo-test-jt/talks/first-talk/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
@@ -28,6 +25,9 @@
   </url><url>
     <loc>http://localhost:1313/hugo-test-jt/talks/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-test-jt/blog/latextest/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hugo-test-jt/categories/</loc>
   </url><url>
