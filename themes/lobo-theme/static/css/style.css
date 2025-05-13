@@ -1,22 +1,29 @@
 @font-face {
-    font-family: 'Linux Libertine';
-    src: url('/fonts/LinuxLibertine/LinLibertine.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Linux Libertine';
+  src: url('/hugo-test-jt/fonts/LinLibertine_R.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Linux Libertine SC';
-    src: url('/fonts/LinuxLibertine/LinLibertine_aS.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Linux Libertine';
+  src: url('/hugo-test-jt/fonts/LinLibertine_RI.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Linux Libertine SCB';
-    src: url('/fonts/LinuxLibertine/LinLibertine_aBS.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Linux Libertine';
+  src: url('/hugo-test-jt/fonts/LinLibertine_RB.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Linux Libertine';
+  src: url('/hugo-test-jt/fonts/LinLibertine_RBI.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
 }
 
 * {
@@ -34,7 +41,7 @@ body {
 
 h1, h2, h3, h4, h5, h6,
 a {
-    font-family: "Linux LinLibertine SC", serif;
+    font-family: "Linux Libertine", serif;
     color: maroon;
 }
 
