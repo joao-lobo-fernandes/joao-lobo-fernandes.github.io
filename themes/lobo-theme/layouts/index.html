@@ -1,28 +1,24 @@
 {{ define "main" }}
 <div class="home-layout">
     <div class="left-column">
+    
+        <div class="address-box">
+            <h3>Address</h3>
+            <p>Department of Karlsruhe Math<br>
+            Karlsruhe Institute for Technology<br>
+            Karlsruhe, Germany</p>
+        </div>
         
-        <div class="bio-section">
-            <div class="address-box">
-                <h3>Address</h3>
-                <p>Department of Karlsruhe Math<br>
-                Karlsruhe Institute for Technology<br>
-                Karlsruhe, Germany</p>
-            </div>
-            
-            <div class="short-bio">
-                <h3>Short Bio</h3>
-                <p>{{ .Content }}</p>
-            </div>
+        <div class="short-bio">
+            <h3>Short Bio</h3>
+            <p>{{ .Content }}</p>
         </div>
 
         <div class="research-interests">
             <h3>Research Interests</h3>
-            <p>My work lies in the broad area of topology, with a focus on the interplay between geometric structures and homotopical methods. I investigate spaces that classify manifolds, explore characteristic invariants of fiber bundles, and analyze deformation spaces of embeddings and diffeomorphisms. My research draws on tools from higher category theory, calculus of functors, and stable homotopy theory. I'm also interested in configuration spaces, cobordism techniques, and the role of K-theory in geometric and smooth settings.
+            <p>My work lies in the broad area of topology, with a focus on the interplay between geometric structures and homotopical methods. I investigate spaces that classify manifolds, explore characteristic invariants of fiber bundles, and analyze deformation spaces of embeddings and diffeomorphisms. My research draws on tools from higher category theory, calculus of functors and the role of K-theory in geometric and smooth settings.</p>
 
-                For more on my academic background and publications, please see my curriculum vitae.
-                
-                I also help coordinate an online discussion series—currently on pause—with Clara Nguyen and Rafael Dominguez, where we explore current topics in manifold theory, structured ring spectra, and adjacent areas.</p>
+            <p>For more on my academic background and publications, please see my CV.</p>
         </div>
         
         <div class="preprints-section">
@@ -42,20 +38,6 @@
                 {{ end }}
             </ul>
         </div>
-
-
-        <details>
-            <summary>Abstract</summary>
-            <div class="talks-section">
-                <h3>Talks:</h3>
-                <ul>
-                    {{ range (where .Site.RegularPages "Section" "talks") }}
-                    <li><a href="{{ .Params.link }}">{{ .Title }}</a> - {{ .Params.venue }}</li>
-                    {{ end }}
-                </ul>
-            </div>
-        </details>
-
     </div>
     
     <div class="right-column">
