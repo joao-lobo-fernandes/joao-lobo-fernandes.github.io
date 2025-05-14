@@ -19,7 +19,7 @@ theme = "lobo-theme"
     weight = 1
   [[menu.main]]
     name = "Writing"
-    url = "/blog/"
+    url = "/writing/"
     weight = 2
 
 [params]
