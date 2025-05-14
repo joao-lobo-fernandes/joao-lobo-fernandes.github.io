@@ -121,7 +121,7 @@ header {
 }
 
 .address-box, .short-bio, .research-interests,
-.preprints-section, .talks-section {
+.preprints-section, .talks-section, .writing-section {
     padding-right: 1rem;
 }
 
@@ -132,7 +132,8 @@ header {
 
 .research-interests,
 .preprints-section,
-.talks-section {
+.talks-section,
+.writing-section {
   grid-column: 1 / -1;
 }
 

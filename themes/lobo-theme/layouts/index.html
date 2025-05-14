@@ -38,6 +38,16 @@
                 {{ end }}
             </ul>
         </div>
+
+        <div class="writing-section">
+            <h3>Writing:</h3>
+            <ul>
+                {{ range (where .Site.RegularPages "Section" "writing") }}
+                <li><a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Params.description }}</li>
+                {{ end }}
+            </ul>
+        </div>
+
     </div>
     
     <div class="right-column">

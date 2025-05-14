@@ -2,6 +2,7 @@
 title: "First Blog Post"
 date: 2025-05-02
 draft: false
+description: "Description about first blog post."
 params:
     math: true
 ---
