@@ -189,3 +189,32 @@ header {
     gap: 0.5rem;
 }
 
+/* SINGLE */
+
+.single-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.single-title-metadata {
+    margin-bottom: 2rem;
+}
+
+.metadata {
+    color: rgba(128, 0, 0   );
+}
+
+.single-content h1,
+.single-content h2,
+.single-content h3,
+.single-content h4,
+.single-content h5,
+.single-content h6 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.single-content {
+
+}

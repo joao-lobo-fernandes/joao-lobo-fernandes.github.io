@@ -6,22 +6,26 @@ params:
     math: true
 ---
 
-This is my first blog post.
+This is my first blog post on this site, and I'm excited to start writing more regularly about the things I'm working on, reading about, or just thinking through.
 
-Hello a
+Hello and welcome.
 
 ## Hello
 
-Hello b
+Today, I wanted to test out a few things: Markdown formatting, section headings, and support for mathematical expressions using LaTeX. It’s important to have a workflow that lets me write comfortably without constantly switching contexts between writing and rendering.
 
 ## Hello whats
 
-Hello
+One of the things I enjoy about working in mathematics is how much clarity comes from writing — even informal writing like this. It often forces ideas to solidify and reveals gaps in understanding that weren’t obvious before.
 
-Ola *This is a post*
+Olá, and thanks for reading. *This is a post* just to get things going, and maybe to try out some formatting.
+
+Here’s a classic example of a quadratic formula written in display math:
 
 $$
-x = {-b \pm \sqrt{b^2-4ac} \over 2a}
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 $$
 
-This is inline math: \( a^2 + b^2 = c^2 \)
+And just to check inline math rendering, here’s the Pythagorean theorem: \( a^2 + b^2 = c^2 \). Hopefully, everything displays properly in your browser.
+
+That’s all for now. More soon!

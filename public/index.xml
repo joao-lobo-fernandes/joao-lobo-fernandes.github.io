@@ -13,7 +13,7 @@
       <link>http://localhost:1313/hugo-test-jt/writing/first-post/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/hugo-test-jt/writing/first-post/</guid>
-      <description>&lt;p&gt;This is my first blog post.&lt;/p&gt;&#xA;&lt;p&gt;Hello a&lt;/p&gt;&#xA;&lt;h2 id=&#34;hello&#34;&gt;Hello&lt;/h2&gt;&#xA;&lt;p&gt;Hello b&lt;/p&gt;&#xA;&lt;h2 id=&#34;hello-whats&#34;&gt;Hello whats&lt;/h2&gt;&#xA;&lt;p&gt;Hello&lt;/p&gt;&#xA;&lt;p&gt;Ola &lt;em&gt;This is a post&lt;/em&gt;&lt;/p&gt;&#xA;$$&#xA;x = {-b \pm \sqrt{b^2-4ac} \over 2a}&#xA;$$&lt;p&gt;This is inline math: ( a^2 + b^2 = c^2 )&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is my first blog post on this site, and I&amp;rsquo;m excited to start writing more regularly about the things I&amp;rsquo;m working on, reading about, or just thinking through.&lt;/p&gt;&#xA;&lt;p&gt;Hello and welcome.&lt;/p&gt;&#xA;&lt;h2 id=&#34;hello&#34;&gt;Hello&lt;/h2&gt;&#xA;&lt;p&gt;Today, I wanted to test out a few things: Markdown formatting, section headings, and support for mathematical expressions using LaTeX. It’s important to have a workflow that lets me write comfortably without constantly switching contexts between writing and rendering.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Academic Talk</title>
