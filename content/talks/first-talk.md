@@ -2,7 +2,7 @@
 title: "My First Academic Talk"
 date: 2025-05-02
 draft: false
-venue: "Example University"
+description: Details about my first academic talk.
 link: "https://example.com/talk1.pdf"
 ---
 

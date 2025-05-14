@@ -25,7 +25,7 @@
             <h3>Preprints:</h3>
             <ul>
                 {{ range (where .Site.RegularPages "Section" "preprints") }}
-                <li><a href="{{ .Params.link }}">{{ .Title }}</a></li>
+                <li><a href="{{ .Params.link }}">{{ .Title }}</a> - {{ .Params.description }}</li>
                 {{ end }}
             </ul>
         </div>
@@ -34,7 +34,7 @@
             <h3>Talks:</h3>
             <ul>
                 {{ range (where .Site.RegularPages "Section" "talks") }}
-                <li><a href="{{ .Params.link }}">{{ .Title }}</a> - {{ .Params.venue }}</li>
+                <li><a href="{{ .Params.link }}">{{ .Title }}</a> - {{ .Params.description }}</li>
                 {{ end }}
             </ul>
         </div>

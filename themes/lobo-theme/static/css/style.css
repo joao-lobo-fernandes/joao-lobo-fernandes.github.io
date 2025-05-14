@@ -58,6 +58,10 @@ a:hover {
     color: white
 }
 
+ul {
+    list-style: none;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -89,18 +93,18 @@ header {
 
 .home-layout {
     display: flex;
-    gap: 30px;
+    gap: 2rem;
+    margin-top: 1rem;
 }
 
 .left-column {
     flex: 7;
-    border-right: 2px solid maroon;
     gap: 20px;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
-    padding: 1rem;
+
 }
 
 .right-column {
@@ -109,6 +113,11 @@ header {
     justify-content: start;
     flex-direction: column;
     gap: 20px;
+}
+
+.address-box, .short-bio, .research-interests,
+.preprints-section, .talks-section {
+    padding-right: 1rem;
 }
 
 .address-box,
@@ -120,7 +129,6 @@ header {
 .preprints-section,
 .talks-section {
   grid-column: 1 / -1;
-  border-radius: 8px;
 }
 
 .research-interests {
