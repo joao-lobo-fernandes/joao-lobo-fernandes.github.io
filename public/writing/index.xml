@@ -9,11 +9,25 @@
     <lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/writing/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Blog Post</title>
+      <title>A conjecture by Galatius and Randal-Williams</title>
+      <link>http://localhost:1313/writing/proj-jan/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writing/proj-jan/</guid>
+      <description>&lt;p&gt;fdgf&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Synthetic spectra</title>
       <link>http://localhost:1313/writing/first-post/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/writing/first-post/</guid>
       <description>&lt;p&gt;This is my first blog post on this site, and I&amp;rsquo;m excited to start writing more regularly about the things I&amp;rsquo;m working on, reading about, or just thinking through.&lt;/p&gt;&#xA;&lt;p&gt;Hello and welcome.&lt;/p&gt;&#xA;&lt;h2 id=&#34;hello&#34;&gt;Hello&lt;/h2&gt;&#xA;&lt;p&gt;Today, I wanted to test out a few things: Markdown formatting, section headings, and support for mathematical expressions using LaTeX. It’s important to have a workflow that lets me write comfortably without constantly switching contexts between writing and rendering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Synthetic spectra</title>
+      <link>http://localhost:1313/writing/synthetic/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writing/synthetic/</guid>
+      <description>&lt;p&gt;fdgf&lt;/p&gt;</description>
     </item>
     <item>
       <title>Latex Blog Post</title>

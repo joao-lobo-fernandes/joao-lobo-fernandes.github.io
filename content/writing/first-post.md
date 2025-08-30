@@ -1,8 +1,9 @@
 ---
-title: "First Blog Post"
+title: "Synthetic spectra"
 date: 2025-05-02
 draft: false
 description: "Description about first blog post."
+link: "https://example.com/talk1.pdf"
 params:
     math: true
 ---

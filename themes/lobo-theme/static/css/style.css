@@ -59,7 +59,11 @@ a:hover {
 }
 
 ul {
-    list-style: none;
+    list-style: disc;
+}
+
+li {
+    margin-left: 15px;
 }
 
 .container {
