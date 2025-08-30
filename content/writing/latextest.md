@@ -1,7 +1,7 @@
 ---
 title: "Latex Blog Post"
 date: 2025-05-01
-draft: false
+draft: true
 description: "Description about latex testing post."
 params:
     math: true

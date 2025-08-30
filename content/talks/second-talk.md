@@ -1,9 +1,9 @@
 ---
-title: "My Second Academic Talk"
-date: 2025-05-02
+title: "Stable moduli spaces of odd-dimensional triads"
+date: 2025-06-23
 draft: false
-description: Details about my second academic talk.
-link: "https://example.com/talk1.pdf"
+description: Young Topologists Meeting 2025, Stockholm.
+link: "https://www.math-stockholm.se/en/kalender/konferens/ytm2025-1.1350169"
 ---
 
 Details about my first academic talk.

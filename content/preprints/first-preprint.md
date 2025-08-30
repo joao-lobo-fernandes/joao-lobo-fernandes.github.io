@@ -1,9 +1,9 @@
 ---
-title: "My First Preprint"
+title: "Stable moduli spaces of odd-dimensional manifold triads"
 date: 2025-05-02
-draft: false
-description: Details about preprint 1.
-link: "/hugo-test-jt/pdf/preprint1.pdf"
+draft: true
+description: "In preparation"
+link: 
 ---
 
 Description of my first preprint.

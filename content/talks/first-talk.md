@@ -1,9 +1,9 @@
 ---
-title: "My First Academic Talk"
-date: 2025-05-02
+title: "Stable moduli spaces of odd-dimensional triads"
+date: 2025-08-11
 draft: false
-description: Details about my first academic talk.
-link: "https://example.com/talk1.pdf"
+description: "Infinity Operads and Applications to Geometry, Copenhagen."
+link: "https://www.math.ku.dk/english/calendar/events/infinity-operads-and-manifolds/"
 ---
 
 Details about my first academic talk.
