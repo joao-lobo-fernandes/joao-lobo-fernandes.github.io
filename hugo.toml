@@ -13,14 +13,6 @@ theme = "lobo-theme"
           inline = [['\\(', '\\)']]
 
 [menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "Writing"
-    url = "/writing/"
-    weight = 2
 
 [params]
     author = "João Lobo Fernandes"
