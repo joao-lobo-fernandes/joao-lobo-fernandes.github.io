@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>João Lobo Fernandes</title>
-    <link>http://localhost:1313/hugo-test-jt/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on João Lobo Fernandes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/hugo-test-jt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Blog Post</title>
-      <link>http://localhost:1313/hugo-test-jt/writing/first-post/</link>
+      <link>http://localhost:1313/writing/first-post/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hugo-test-jt/writing/first-post/</guid>
+      <guid>http://localhost:1313/writing/first-post/</guid>
       <description>&lt;p&gt;This is my first blog post on this site, and I&amp;rsquo;m excited to start writing more regularly about the things I&amp;rsquo;m working on, reading about, or just thinking through.&lt;/p&gt;&#xA;&lt;p&gt;Hello and welcome.&lt;/p&gt;&#xA;&lt;h2 id=&#34;hello&#34;&gt;Hello&lt;/h2&gt;&#xA;&lt;p&gt;Today, I wanted to test out a few things: Markdown formatting, section headings, and support for mathematical expressions using LaTeX. It’s important to have a workflow that lets me write comfortably without constantly switching contexts between writing and rendering.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Academic Talk</title>
-      <link>http://localhost:1313/hugo-test-jt/talks/first-talk/</link>
+      <link>http://localhost:1313/talks/first-talk/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hugo-test-jt/talks/first-talk/</guid>
+      <guid>http://localhost:1313/talks/first-talk/</guid>
       <description>&lt;p&gt;Details about my first academic talk.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Preprint</title>
-      <link>http://localhost:1313/hugo-test-jt/preprints/first-preprint/</link>
+      <link>http://localhost:1313/preprints/first-preprint/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hugo-test-jt/preprints/first-preprint/</guid>
+      <guid>http://localhost:1313/preprints/first-preprint/</guid>
       <description>&lt;p&gt;Description of my first preprint.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Second Academic Talk</title>
-      <link>http://localhost:1313/hugo-test-jt/talks/second-talk/</link>
+      <link>http://localhost:1313/talks/second-talk/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hugo-test-jt/talks/second-talk/</guid>
+      <guid>http://localhost:1313/talks/second-talk/</guid>
       <description>&lt;p&gt;Details about my first academic talk.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Latex Blog Post</title>
-      <link>http://localhost:1313/hugo-test-jt/writing/latextest/</link>
+      <link>http://localhost:1313/writing/latextest/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hugo-test-jt/writing/latextest/</guid>
+      <guid>http://localhost:1313/writing/latextest/</guid>
       <description>&lt;h2 id=&#34;using-latex-in-your-hugo-academic-website&#34;&gt;Using LaTeX in Your Hugo Academic Website&lt;/h2&gt;&#xA;&lt;p&gt;This guide explains how to write LaTeX in your markdown files and how it will render on your website.&lt;/p&gt;&#xA;&lt;h2 id=&#34;latex-syntax-in-markdown&#34;&gt;LaTeX Syntax in Markdown&lt;/h2&gt;&#xA;&lt;p&gt;You can include LaTeX equations in your Hugo markdown files using the following delimiters:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Inline equations&lt;/strong&gt;: Use &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;\\(...\\)&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Display equations&lt;/strong&gt;: Use &lt;code&gt;$$...$$&lt;/code&gt; or &lt;code&gt;\\[...\\]&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;&#xA;&lt;h3 id=&#34;basic-equations&#34;&gt;Basic Equations&lt;/h3&gt;&#xA;&lt;p&gt;For inline equations like $E=mc^2$, just write: &lt;code&gt;$E=mc^2$&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;For displayed equations:&lt;/p&gt;</description>
     </item>
   </channel>

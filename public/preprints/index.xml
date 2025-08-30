@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Preprints on João Lobo Fernandes</title>
-    <link>http://localhost:1313/hugo-test-jt/preprints/</link>
+    <link>http://localhost:1313/preprints/</link>
     <description>Recent content in Preprints on João Lobo Fernandes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/hugo-test-jt/preprints/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/preprints/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Preprint</title>
-      <link>http://localhost:1313/hugo-test-jt/preprints/first-preprint/</link>
+      <link>http://localhost:1313/preprints/first-preprint/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hugo-test-jt/preprints/first-preprint/</guid>
+      <guid>http://localhost:1313/preprints/first-preprint/</guid>
       <description>&lt;p&gt;Description of my first preprint.&lt;/p&gt;</description>
     </item>
   </channel>

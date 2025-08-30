@@ -2,35 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/hugo-test-jt/writing/first-post/</loc>
+    <loc>http://localhost:1313/writing/first-post/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-test-jt/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-test-jt/talks/first-talk/</loc>
+    <loc>http://localhost:1313/talks/first-talk/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-test-jt/preprints/first-preprint/</loc>
+    <loc>http://localhost:1313/preprints/first-preprint/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-test-jt/talks/second-talk/</loc>
+    <loc>http://localhost:1313/talks/second-talk/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-test-jt/preprints/</loc>
+    <loc>http://localhost:1313/preprints/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-test-jt/talks/</loc>
+    <loc>http://localhost:1313/talks/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-test-jt/writing/</loc>
+    <loc>http://localhost:1313/writing/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-test-jt/writing/latextest/</loc>
+    <loc>http://localhost:1313/writing/latextest/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-test-jt/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/hugo-test-jt/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
