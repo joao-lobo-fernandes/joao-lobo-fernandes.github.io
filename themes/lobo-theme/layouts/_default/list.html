@@ -9,10 +9,15 @@
     <ul class="item-list">
         {{ range .Pages }}
         <li>
-            <a href="{{ .Permalink }}">{{ .Title }}</a> - 
-            <span class="date">{{ .Date.Format "January 2, 2006" }}</span>
+            {{ if .Params.link }}
+                <a href="{{ .Params.link }}" target="_blank" rel="noopener">{{ .Title }}</a>
+            {{ else }}
+                <a href="{{ .Permalink }}" target="_blank" rel="noopener">{{ .Title }}</a>
+            {{ end }}
+            - <span class="date">{{ .Date.Format "January 2, 2006" }}</span>
         </li>
         {{ end }}
     </ul>
+
 </div>
 {{ end }}
