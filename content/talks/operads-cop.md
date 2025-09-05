@@ -4,6 +4,7 @@ date: 2025-08-11
 draft: false
 description: "Infinity Operads and Applications to Geometry, Copenhagen."
 link: "https://www.math.ku.dk/english/calendar/events/infinity-operads-and-manifolds/"
+month: "Aug 2025"
 ---
 
 Details about my first academic talk.

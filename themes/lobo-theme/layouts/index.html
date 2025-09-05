@@ -46,7 +46,7 @@
             <h3>Talks:</h3>
             <ul>
                 {{ range (where .Site.RegularPages "Section" "talks") }}
-                <li><a href="{{ .Params.link }}">{{ .Title }}</a> - {{ .Params.description }}</li>
+                <li> {{ .Params.month}} - <a href="{{ .Params.link }}">{{ .Title }}</a> - {{ .Params.description }}</li>
                 {{ end }}
             </ul>
         </div>
