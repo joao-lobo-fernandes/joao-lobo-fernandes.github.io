@@ -37,7 +37,7 @@
             <h3>Preprints:</h3>
             <ul>
                 {{ range (where .Site.RegularPages "Section" "preprints") }}
-                <li><a href="{{ .Params.link }}">{{ .Title }}</a> - {{ .Params.description }}</li>
+                <li><a href="{{ .Params.linkpdf }}">{{ .Title }}</a> (<a href="{{ .Params.link }}">arXiv</a>) ({{ .Params.year }})</li>
                 {{ end }}
             </ul>
         </div>

@@ -6,7 +6,14 @@
     <description>Recent content in Preprints on João Lobo Fernandes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/preprints/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stable moduli spaces of odd-dimensional manifold triads</title>
+      <link>http://localhost:1313/preprints/triads/</link>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/preprints/triads/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
