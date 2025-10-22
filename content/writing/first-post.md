@@ -8,7 +8,7 @@ params:
     math: true
 ---
 
-This is my first blog post on this site, and I'm excited to start writing more regularly about the things I'm working on, reading about, or just thinking through.
+This is my first blog post on this site, and I'm excited to start writing more regularly about the things I'm working on, reading about, or just thinking throug
 
 Hello and welcome.
 
