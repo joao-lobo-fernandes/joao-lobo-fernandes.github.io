@@ -2,6 +2,7 @@ baseURL = 'https://joao-lobo-fernandes.github.io/'
 languageCode = 'en-us'
 title = 'João Lobo Fernandes'
 theme = "lobo-theme"
+buildFuture = true
 
 [markup]
   [markup.goldmark]
@@ -20,3 +21,4 @@ theme = "lobo-theme"
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
