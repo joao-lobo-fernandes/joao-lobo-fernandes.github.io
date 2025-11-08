@@ -2,8 +2,8 @@
 title: "TBA"
 date: 2025-11-25
 draft: false
-description: Algebra & Geometry Seminar, Stockholm.
-link: "https://www.math-stockholm.se/en/kalender/alggeo"
+description: Topology Seminar, Stockholm.
+link: "https://www.math-stockholm.se/en/kalender/topactivities"
 month: "Nov 2025"
 ---
 
