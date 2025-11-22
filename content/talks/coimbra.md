@@ -1,5 +1,5 @@
 ---
-title: "TBA"
+title: "Stable characteristic classes of odd-dimensional manifold bundles"
 date: 2025-12-19
 draft: false
 description: Geometry Seminar, Coimbra.
