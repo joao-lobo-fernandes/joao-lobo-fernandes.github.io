@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/preprints/solidtori/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/preprints/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/talks/mhtrt/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -19,12 +25,6 @@
   </url><url>
     <loc>http://localhost:1313/talks/stockholm/</loc>
     <lastmod>2025-11-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/preprints/</loc>
-    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/preprints/solidtori/</loc>
-    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/preprints/triads/</loc>
     <lastmod>2025-10-22T00:00:00+00:00</lastmod>

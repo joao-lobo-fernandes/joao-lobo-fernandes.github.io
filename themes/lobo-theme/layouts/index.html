@@ -37,7 +37,15 @@
             <h3>Preprints:</h3>
             <ul>
                 {{ range (where .Site.RegularPages "Section" "preprints") }}
-                <li><a href="{{ .Params.linkpdf }}">{{ .Title }}</a> (<a href="{{ .Params.link }}">arXiv</a>) ({{ .Params.year }})</li>
+                <li><a href="{{ .Params.linkpdf }}">{{ .Title }}</a> (<a href="{{ .Params.link }}">arXiv</a>) ({{ .Params.year }}) 
+                    
+                            {{ with .Params.coauthors }}
+                            — with 
+                            {{ range $i, $c := . }}
+                            {{ if gt $i 0 }}, {{ end }}
+                            <a href="{{ $c.url }}">{{ $c.name }}</a>
+                            {{ end }}
+                            {{ end }} </a> </li>
                 {{ end }}
             </ul>
         </div>
