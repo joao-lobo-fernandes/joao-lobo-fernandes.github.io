@@ -8,6 +8,12 @@
     <loc>http://localhost:1313/talks/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/talks/bielefeld/</loc>
+    <lastmod>2026-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/talks/munsterober/</loc>
+    <lastmod>2026-01-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/talks/coimbra/</loc>
     <lastmod>2025-12-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -15,6 +21,9 @@
     <lastmod>2025-11-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/preprints/</loc>
+    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/preprints/solidtori/</loc>
     <lastmod>2025-10-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/preprints/triads/</loc>
