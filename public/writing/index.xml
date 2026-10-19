@@ -6,8 +6,15 @@
     <description>Recent content in Writing on João Lobo Fernandes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Thesis</title>
+      <link>http://localhost:1313/writing/thesis/</link>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writing/thesis/</guid>
+      <description>&lt;p&gt;fdgf&lt;/p&gt;</description>
+    </item>
     <item>
       <title>A conjecture by Galatius and Randal-Williams</title>
       <link>http://localhost:1313/writing/proj-jan/</link>

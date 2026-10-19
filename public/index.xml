@@ -6,8 +6,29 @@
     <description>Recent content on João Lobo Fernandes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tba</title>
+      <link>http://localhost:1313/talks/mainz/</link>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talks/mainz/</guid>
+      <description>&lt;p&gt;Details about my first academic talk.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tba</title>
+      <link>http://localhost:1313/talks/bonn/</link>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talks/bonn/</guid>
+      <description>&lt;p&gt;Details about my first academic talk.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Thesis</title>
+      <link>http://localhost:1313/writing/thesis/</link>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writing/thesis/</guid>
+      <description>&lt;p&gt;fdgf&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Diffeomorphism groups of solid tori and the rational pseudoisotopy stable range</title>
       <link>http://localhost:1313/preprints/solidtori/</link>

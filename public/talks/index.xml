@@ -6,8 +6,22 @@
     <description>Recent content in Talks on João Lobo Fernandes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tba</title>
+      <link>http://localhost:1313/talks/mainz/</link>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talks/mainz/</guid>
+      <description>&lt;p&gt;Details about my first academic talk.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>tba</title>
+      <link>http://localhost:1313/talks/bonn/</link>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talks/bonn/</guid>
+      <description>&lt;p&gt;Details about my first academic talk.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Stable moduli spaces of odd-dimensional manifold triads</title>
       <link>http://localhost:1313/talks/mhtrt/</link>
