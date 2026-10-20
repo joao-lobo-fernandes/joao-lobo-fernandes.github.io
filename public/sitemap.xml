@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/talks/</loc>
+    <lastmod>2026-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/talks/mainz/</loc>
+    <lastmod>2026-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/talks/bonn/</loc>
+    <lastmod>2026-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/writing/thesis/</loc>
+    <lastmod>2026-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/writing/</loc>
+    <lastmod>2026-05-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/preprints/solidtori/</loc>
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,9 +24,6 @@
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/talks/mhtrt/</loc>
-    <lastmod>2026-01-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/talks/</loc>
     <lastmod>2026-01-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/talks/bielefeld/</loc>
@@ -45,9 +57,6 @@
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/writing/synthetic/</loc>
-    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/writing/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
