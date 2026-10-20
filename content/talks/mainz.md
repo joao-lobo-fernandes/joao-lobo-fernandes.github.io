@@ -3,7 +3,7 @@ title: "tba"
 date: 2026-11-26
 draft: false
 description: AGZT Seminar, Mainz.
-link: ""
+link: "https://indico.zdv.uni-mainz.de/category/27/"
 month: "Nov 2026"
 ---
 
