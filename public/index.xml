@@ -13,7 +13,7 @@
       <link>http://localhost:1313/talks/mainz/</link>
       <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/talks/mainz/</guid>
-      <description>&lt;p&gt;Details about my first academic talk.&lt;/p&gt;</description>
+      <description>&lt;p&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>tba</title>
@@ -21,6 +21,13 @@
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/talks/bonn/</guid>
       <description>&lt;p&gt;Details about my first academic talk.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>On the space of long knots in codimension 2 (joint with Samuel Muñoz-Echániz)</title>
+      <link>http://localhost:1313/writing/oberwolfach/</link>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writing/oberwolfach/</guid>
+      <description>&lt;p&gt;fdgf&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Thesis</title>
