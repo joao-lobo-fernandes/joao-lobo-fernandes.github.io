@@ -11,10 +11,13 @@
     <loc>http://localhost:1313/talks/bonn/</loc>
     <lastmod>2026-11-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/writing/thesis/</loc>
-    <lastmod>2026-05-06T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/writing/oberwolfach/</loc>
+    <lastmod>2026-11-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/writing/</loc>
+    <lastmod>2026-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/writing/thesis/</loc>
     <lastmod>2026-05-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/preprints/solidtori/</loc>
@@ -49,9 +52,6 @@
   </url><url>
     <loc>http://localhost:1313/talks/karlsruhe/</loc>
     <lastmod>2025-05-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/writing/oberwolfach/</loc>
-    <lastmod>2025-05-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/writing/proj-jan/</loc>
     <lastmod>2025-05-02T00:00:00+00:00</lastmod>
